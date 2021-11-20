@@ -188,6 +188,8 @@ class PdfInvoiceApi {
                 Container(height: 1, color: PdfColors.grey400),
                 SizedBox(height: 0.5 * PdfPageFormat.mm),
                 Container(height: 1, color: PdfColors.grey400),
+                SizedBox(height: 160),
+                Text('Authorized Signature', style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold))
               ],
             ),
           ),
